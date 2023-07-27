@@ -31,9 +31,9 @@ public class HighestNumberFinderTest {
         //arrange
         int array[] =
                 {
-                        13, 4
+                        7, 13
                 };
-        int expectedResult = 10;
+        int expectedResult = 13;
         HighestNumberFinder cut = new HighestNumberFinder();
 
 
@@ -47,7 +47,7 @@ public class HighestNumberFinderTest {
 
     }
 
-    @Test public void Array_of_two_ascending_items_return_last_item()
-
 
 }
+
+
